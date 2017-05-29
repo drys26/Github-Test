@@ -14,6 +14,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Second View Controller")
     }
 
     override func didReceiveMemoryWarning() {

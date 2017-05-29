@@ -14,6 +14,7 @@
 		105E6A921EDC331A00DECD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105E6A901EDC331A00DECD8E /* LaunchScreen.storyboard */; };
 		105E6A9D1EDC331B00DECD8E /* Github_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E6A9C1EDC331B00DECD8E /* Github_TestTests.swift */; };
 		105E6AA81EDC331C00DECD8E /* Github_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E6AA71EDC331C00DECD8E /* Github_TestUITests.swift */; };
+		105E6AB61EDC376B00DECD8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E6AB51EDC376B00DECD8E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		105E6AA31EDC331B00DECD8E /* Github TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		105E6AA71EDC331C00DECD8E /* Github_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_TestUITests.swift; sourceTree = "<group>"; };
 		105E6AA91EDC331C00DECD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105E6AB51EDC376B00DECD8E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				105E6A8E1EDC331A00DECD8E /* Assets.xcassets */,
 				105E6A901EDC331A00DECD8E /* LaunchScreen.storyboard */,
 				105E6A931EDC331A00DECD8E /* Info.plist */,
+				105E6AB51EDC376B00DECD8E /* SecondViewController.swift */,
 			);
 			path = "Github Test";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105E6AB61EDC376B00DECD8E /* SecondViewController.swift in Sources */,
 				105E6A8A1EDC331900DECD8E /* ViewController.swift in Sources */,
 				105E6A881EDC331900DECD8E /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				105E6AAE1EDC331C00DECD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105E6AAF1EDC331C00DECD8E /* Build configuration list for PBXNativeTarget "Github TestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				105E6AB11EDC331C00DECD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		105E6AB21EDC331C00DECD8E /* Build configuration list for PBXNativeTarget "Github TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				105E6AB41EDC331C00DECD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
