@@ -34,7 +34,10 @@ class ViewController: UIViewController {
 
     @IBAction func nextPage(_ sender: Any) {
         performSegue(withIdentifier: "aws", sender: nil)
+        print("amaw")
     }
 
+    
+    
 }
 
