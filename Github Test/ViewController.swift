@@ -21,6 +21,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func doSomething(){
+    
+        print("Do Something!")
+    }
+    
+    func doSomethingOne(){
+        
+        print("Do Something One!")
+    }
 
 
 }
