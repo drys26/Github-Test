@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("Second View Controller")
+        performSegue(withIdentifier: "thirdview", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {
