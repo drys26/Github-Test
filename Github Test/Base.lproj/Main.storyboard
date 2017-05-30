@@ -61,7 +61,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="0CC-fA-8eB" kind="show" id="4TU-3Q-y3B"/>
+                        <segue destination="0CC-fA-8eB" kind="show" identifier="thirdview" id="4TU-3Q-y3B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fvc-GI-cQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
