@@ -26,7 +26,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="3fU-EX-hs1" kind="show" id="TMf-UY-r1B"/>
+                                    <action selector="nextPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5G-GU-Gff"/>
+                                    <segue destination="3fU-EX-hs1" kind="show" identifier="aws" id="TMf-UY-r1B"/>
                                 </connections>
                             </button>
                         </subviews>
